@@ -230,6 +230,12 @@ public class DataPenjualan extends javax.swing.JFrame {
 
         jLabel6.setText("Jumlah Terjual");
 
+        InputNama.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                InputNamaActionPerformed(evt);
+            }
+        });
+
         InputHarga.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 InputHargaActionPerformed(evt);
@@ -473,6 +479,10 @@ public class DataPenjualan extends javax.swing.JFrame {
     private void clearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearActionPerformed
             Clear ();        // TODO add your handling code here:
     }//GEN-LAST:event_clearActionPerformed
+
+    private void InputNamaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InputNamaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_InputNamaActionPerformed
 
     /**
      * @param args the command line arguments
