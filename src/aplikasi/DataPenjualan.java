@@ -390,7 +390,7 @@ public class DataPenjualan extends javax.swing.JFrame {
      String Harga = tabel.getValueAt (baris, 3).toString();
      InputHarga.setText(Harga);
      
-     String Jumlah_Terjual = tabel.getValueAt (baris, 3).toString();
+     String Jumlah_Terjual = tabel.getValueAt (baris, 4).toString();
      InputJumlahTerjual.setText(Jumlah_Terjual);
         System.out.println(id);
     }//GEN-LAST:event_tabelMouseClicked
